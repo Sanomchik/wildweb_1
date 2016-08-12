@@ -7033,41 +7033,7 @@ textarea {
   color: #969696;
   font-family: pfsquaresanspro regular;
   line-height: 20px;
-  margin-bottom: 15px; }
-
-.discount-number {
-  background: #ff0000;
-  width: 90px;
-  height: 90px;
-  text-align: center;
-  font-family: pfsquaresanspro medium;
-  color: white;
-  position: absolute;
-  right: 60px;
-  -webkit-box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.35);
-  box-shadow: 3px 3px 5px 4px rgba(0, 0, 0, 0.35);
-  border-radius: 200px 200px 200px 200px;
-  -moz-border-radius: 200px 200px 200px 200px;
-  -webkit-border-radius: 200px 200px 200px 200px;
-  border: 0px solid #000000; }
-  .discount-number h3 {
-    font-size: 35pt;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 10px; }
-    .discount-number h3 span {
-      font-size: 25pt; }
-  .discount-number h5 {
-    margin-top: 0; }
-
-.discount-text {
-  background: url("../img/section-label.png");
-  background-repeat: no-repeat;
-  width: 290px;
-  height: 70px;
-  position: absolute;
-  bottom: 50px;
-  right: 30px; }
+  margin-bottom: 15p; }
 
 .section-2-text-small {
   font-family: pfsquaresanspro bold;
@@ -7263,18 +7229,10 @@ textarea {
       padding-top: 50px; }
     .form-bg input {
       display: block; }
-  .discount-text {
-    right: 40px; }
   .section-4-item {
     width: 455px; }
   .single-items {
     width: 100%; } }
-
-@media only screen and (max-width: 1100px) {
-  .discount-text {
-    right: 110px; }
-  .discount-number {
-    right: 120px; } }
 
 @media only screen and (max-width: 990px) {
   .section-1-image-item:first-child {
@@ -7295,12 +7253,10 @@ textarea {
     margin-top: 80px; }
   .section-1 h4 {
     font-size: 15pt; }
+  .section-2 h1 {
+    margin-top: 80px; }
   .form-bg {
     display: none; }
-  .discount-text {
-    right: 320px; }
-  .discount-number {
-    right: 350px; }
   .section-3-item {
     margin: 0 auto;
     margin-bottom: 110px; }
@@ -7314,3 +7270,20 @@ textarea {
     margin: auto;
     float: none;
     width: inherit; } }
+
+@media only screen and (max-width: 550px) {
+  .section-1 h4 {
+    width: auto; }
+  .section-3-item {
+    width: auto; }
+  .section-4-item {
+    width: auto; }
+  .footer-form {
+    width: auto; }
+  .footer-form-bg {
+    width: auto; }
+    .footer-form-bg input {
+      width: 100%; }
+  .footer-form-submit-button {
+    margin-left: 0;
+    margin: auto; } }

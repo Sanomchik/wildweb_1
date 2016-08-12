@@ -3,6 +3,7 @@ $('.multiple-items').slick({
   slidesToShow: 4,
   slidesToScroll: 4,
   dots: true,
+  arrows: false,
   responsive: [
   {
     breakpoint: 1250,
