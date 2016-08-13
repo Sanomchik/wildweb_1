@@ -7073,7 +7073,7 @@ textarea {
 
 .section-2-text-small {
   font-family: pfsquaresanspro bold;
-  font-size: 15pt;
+  font-size: 13pt;
   color: #2d4c4c;
   margin-top: 0;
   line-height: 95px; }
@@ -7081,7 +7081,7 @@ textarea {
 .section-2-text-big {
   margin-top: 20px;
   font-family: pfsquaresanspro bold;
-  font-size: 25pt;
+  font-size: 23pt;
   color: #ff0000; }
 
 .section-3 {
@@ -7298,6 +7298,8 @@ textarea {
     left: 90px; } }
 
 @media only screen and (max-width: 990px) {
+  .section-1 {
+    height: 750px; }
   .section-1-image-item:first-child {
     padding-left: 0; }
   .section-1-image-label-mobile {
