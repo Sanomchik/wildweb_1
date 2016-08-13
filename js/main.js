@@ -60,11 +60,5 @@ $('.phonestart-first').keypress(function() {
   };
 });
 $('.submit-button-anchor').click(function(){
-       $('html, body').animate({scrollTop:$('.footer-form-submit-button').position().top}, 2000);
-});
-$( ".submit-button-first a" ).click(function() {
-  $( ".form-bg form" ).submit();
-});
-$( ".footer-form-submit-button a" ).click(function() {
-  $( ".footer-form form" ).submit();
+       $('html, body').animate({scrollTop:$('.footer-form').position().top}, 2000);
 });

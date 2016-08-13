@@ -6965,7 +6965,7 @@ textarea {
     color: #505050;
     font-size: 20px;
     font-family: pfsquaresanspro regular; }
-  .form-bg input:nth-child(1) {
+  .form-bg input[type="text"]:nth-child(1) {
     width: 365px;
     margin-right: 60px; }
   .form-bg input:nth-child(2) {
@@ -7013,7 +7013,7 @@ textarea {
   font-size: 35pt;
   font-family: pfsquaresanspro bold;
   color: #2d4c4c;
-  margin-top: 45px;
+  margin-top: 80px;
   margin-bottom: 50px;
   text-transform: uppercase;
   text-align: center; }
@@ -7034,7 +7034,42 @@ textarea {
   color: #969696;
   font-family: pfsquaresanspro regular;
   line-height: 20px;
-  margin-bottom: 15p; }
+  margin-bottom: 15px; }
+
+.section-1-slider-container {
+  width: 280px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative; }
+  .section-1-slider-container .discount-number {
+    height: 90px;
+    width: 90px;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
+    background-color: #ff0000;
+    color: white;
+    position: absolute;
+    right: 20px;
+    -webkit-box-shadow: 7px 7px 10px 4px rgba(0, 0, 0, 0.35);
+    box-shadow: 7px 7px 10px 4px rgba(0, 0, 0, 0.35); }
+    .section-1-slider-container .discount-number h3 {
+      margin-top: 10px;
+      font-size: 35pt;
+      margin-bottom: 0; }
+      .section-1-slider-container .discount-number h3 span {
+        font-size: 15pt; }
+    .section-1-slider-container .discount-number h5 {
+      margin-top: 0;
+      text-transform: uppercase; }
+  .section-1-slider-container .discount-text {
+    background: url("../img/section-label.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75px;
+    width: 300px;
+    position: absolute;
+    bottom: 15px;
+    right: -5px; }
 
 .section-2-text-small {
   font-family: pfsquaresanspro bold;
@@ -7237,6 +7272,9 @@ textarea {
 .submit-button-anchor {
   display: block;
   margin: 0 auto; }
+  .submit-button-anchor a {
+    text-decoration: none !important;
+    color: white !important; }
 
 @media only screen and (max-width: 1250px) {
   .form-inputs {
