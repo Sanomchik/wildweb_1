@@ -7282,15 +7282,34 @@ textarea {
     color: white !important; }
 
 @media only screen and (max-width: 1250px) {
+  .form-bg input[type="text"]:nth-child(1) {
+    width: 42% !important;
+  }
+  .form-bg input[type="text"]:nth-child(2) {
+    width: 42% !important;
+  }
+  .form-bg input[type="email"]:nth-child(3) {
+    width: 30% !important;
+    margin-right: 10%;
+  }
+  .form-bg .phoneend-first {
+    width: 26.5% !important;
+  }
+  .form-bg .phonestart-first {
+    width: 12.5% !important;
+  }
   .form-inputs {
     width: 60%; }
   .form-bg {
     width: 95%; }
     .form-bg form {
-      min-height: 500px;
+      min-height: 250px;
       padding-top: 50px; }
-    .form-bg input {
-      display: block; }
+    .form-bg span {
+      font-size: 10pt;
+    }
+    /*.form-bg input {
+      display: block; }*/
   .section-4-item {
     width: 455px; }
   .single-items {
